@@ -15,7 +15,14 @@ function Footer() {
                     />
 
                     <div className="flex md:hidden items-center gap-x-7">
-                        <BsInstagram className="text-white h-5 w-5 cursor-pointer" />
+                        <a
+                            href="https://www.instagram.com/tofagraphy"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <BsInstagram className="text-white h-5 w-5 cursor-pointer" />
+                        </a>
+
                         <a
                             href="https://wa.me/message/4RZ42BOFSTQPG1"
                             target="_blank"
